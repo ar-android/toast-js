@@ -1,9 +1,9 @@
 # ToastJS
 Display simple toast message using javascript.
 
-[https://ar-android.github.io/toast-js/](demo)
+[demo](https://ar-android.github.io/toast-js/)
 
-<img src="https://github.com/ar-android/toast-js/raw/master/toast-js.png" alt="ToastJS">
+[ToastJS](https://github.com/ar-android/toast-js/raw/master/toast-js.png)!
 
 ## Installation
 Import css.
