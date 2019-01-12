@@ -17,8 +17,8 @@ Import JS
 ## Usage
 To display toast just use show method. You can set message and duration to show.
 ```javascript
-    Toast({
-        text: "This is toast!",
-        duration: 3000
-    }).show();
+Toast({
+    text: "This is toast!",
+    duration: 3000
+}).show();
 ```
