@@ -27,7 +27,7 @@ Toast({
 You can change toas style css.
 ```css
 .toast{
-	background: -webkit-linear-gradient(315deg, #e67e22, #d35400);
-	background: linear-gradient(135deg, #e67e22, #d35400);
+    background: -webkit-linear-gradient(315deg, #e67e22, #d35400);
+    background: linear-gradient(135deg, #e67e22, #d35400);
 }
 ```
