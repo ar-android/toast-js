@@ -3,7 +3,7 @@ Display simple toast message using javascript.
 
 [demo](https://ar-android.github.io/toast-js/)
 
-[ToastJS](https://github.com/ar-android/toast-js/raw/master/toast-js.png)!
+<img src="https://github.com/ar-android/toast-js/raw/master/toast-js.png" alt="ToastJS">
 
 ## Installation
 Import css.
