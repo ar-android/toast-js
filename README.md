@@ -1,7 +1,7 @@
 # ToastJS
 Display simple toast message using javascript.
 
-[demo](https://ar-android.github.io/toast-js/)
+[Demo](https://ar-android.github.io/toast-js/)
 
 <img src="https://github.com/ar-android/toast-js/raw/master/toast-js.png" alt="ToastJS">
 
