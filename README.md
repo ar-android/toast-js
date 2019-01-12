@@ -6,7 +6,7 @@ Display simple toast message using javascript.
 ## Installation
 Import css.
 ```html
-	<link rel="stylesheet" type="text/css" href="toast.css">
+<link rel="stylesheet" type="text/css" href="toast.css">
 ```
 
 Import JS
