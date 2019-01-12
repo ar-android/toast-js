@@ -11,7 +11,9 @@ Import css.
 ```
 
 Import JS
+```html
 <script type="text/javascript" src="toast.js"></script>
+```
 
 ## Usage
 To display toast just use show method. You can set message and duration to show.
