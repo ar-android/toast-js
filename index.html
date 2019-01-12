@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toastify</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="toast.css">
+	<style type="text/css">
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            margin: 0;
+        }
+		.content{
+			text-align: center;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.content-show a{
+			text-decoration: none;
+			padding: 10px 30px 10px 30px;
+			color: white;
+			box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.12), 0 10px 36px -4px rgba(77, 96, 232, 0.3);
+			background: -webkit-linear-gradient(315deg, #e67e22, #d35400);
+			background: linear-gradient(135deg, #e67e22, #d35400);
+			border-radius: 50px;
+		}
+		.toast{
+			background: -webkit-linear-gradient(315deg, #e67e22, #d35400);
+			background: linear-gradient(135deg, #e67e22, #d35400);
+		}
+	</style>
+</head>
+<body>
+<div class="content">
+	<div>
+		<h1>Javascript Display Toast.</h1>
+		<div class="content-show">
+	        <a href="#" id="toast">Show Toast</a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="toast.js"></script>
+<script type="text/javascript">
+document.getElementById('toast').addEventListener('click', function () {
+    Toast({
+        text: "This is toast!",
+        duration: 3000
+    }).show();
+});
+</script>
+</body>
+</html>
